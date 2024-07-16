@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expansão dos Sentidos • Guto Pereira</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800i|Roboto:400,700');
+  </style>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body id="post" class="grey lighten-5 container">
+  <div id="top"></div>
+  <nav id="main-nav" class="transparent z-depth-0 black-text">
+    <div class="nav-wrapper">
+      <a id="blog-name" href="/" class="brand-logo valign-wrapper black-text">
+        <div>Expansão dos Sentidos <span>blog de <strong>Guto Pereira</strong> para a disciplina DSG1411</span></div>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#footer" class="transparent z-depth-0 btn waves-effect waves-grey">Sobre<i class="tiny material-icons right">info_outline</i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <main id="main-content">
+    <!-- Post content will be loaded here -->
+  </main>
+  <footer id="footer" class="page-footer transparent">
+    <div>
+      <div class="row">
+        <div class="col l7 s12">
+          <h5 class="black-text">SOBRE <i class="material-icons">info_outline</i></h5>
+          <p class="grey-text text-darken-3">Este blog foi desenvolvido para a disciplina <a href="http://bonelli.usuarios.rdc.puc-rio.br/dsg1411/" target="blank">Design/Expansão dos Sentidos<i class="material-icons tiny">launch</i></a>, ministrada pelo professor <a href="http://bonelli.usuarios.rdc.puc-rio.br/" target="blank">João Bonelli<i class="material-icons tiny">launch</i></a> na <a href="http://www.puc-rio.br" target="blank">PUC-Rio<i class="material-icons tiny">launch</i></a>. Todo o conteúdo textual e imagético foi elaborado pelo autor da página ou dispõem de licença de uso com sua autoria devidamente atribuída.</p>
+        </div>
+        <div class="col l4 offset-l1 s12">
+          <h5 class="black-text">CONTATO <i class="material-icons">mail_outline</i></h5>
+          <ul>
+            <li><a href="https://www.instagram.com/gutospereira" target="blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.facebook.com/gutospereira" target="blank"><i class="fab fa-facebook"></i> Facebook</a></a></li>
+            <li><a href="https://www.linkedin.com/in/gutospereira/" target="blank"><i class="fab fa-linkedin"></i> LinkedIn</a></a></li>
+            <li><a href="https://www.behance.net/GutoPereira" target="blank"><i class="fab fa-behance"></i> Behance</a></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright row transparent">
+      <div class="col l12 s12 black-text center-align"><a href="http://gutopereira.com.br" target="blank">Guto Pereira</a> &bull; © <span id="year"></span> - todos os direitos reservados.</div>
+    </div>
+  </footer>
+  <div id="flashContainer"></div>
+  <script>
+    const SITE_BASE_URL = "";
+    const IMAGES_BASE_URL = "";
+    var scriptsIncluded = 0;
+    const numberOfScripts = 2;
+  </script>
+  <script src="js/load_post.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/he.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/*
+  flash.css
+*/
+
+#flashContainer{
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
+
+.flashMsg{
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0,0,0,.4);
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 16px;
+  max-width: 300px;
+  text-shadow: 0px 1px 0px #000;
+  letter-spacing: 0.2px;
+}
+
+.flashMsg span.removeMsg{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-weight: bold;
+  color: #f55;
+  cursor: pointer;
+}
